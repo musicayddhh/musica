@@ -1,0 +1,101 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("Images/Fondo/491.jpg");
+}
+
+header {
+  background-color: #d07e0e;
+  padding-top: 32px;
+}
+
+h1 {
+  margin: 0;
+}
+
+form {
+  background-color: #d07e0e;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+input {
+  font-size: 24px;
+  text-align: center;
+  width: 30%;
+  min-width: 250px;
+  background-color: #2f615e;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: hsla(48, 57%, 80%, 0.925);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: hsla(48, 57%, 80%, 0.925);
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: hsla(48, 57%, 80%, 0.925);
+}
+
+main {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1024px;
+  justify-content: center;
+  min-height: 78vh;
+}
+
+.person {
+  display: grid;
+  grid-template-rows: auto auto;
+  border: solid black 1px;
+  margin: 8px;
+  width: 300px;
+  background-color: hsla(48, 57%, 80%, 0.925);
+  max-height: 305px;
+}
+
+.person figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 196px;
+}
+
+.person h2 {
+  align-self: center;
+  margin-top: 0;
+}
+
+.person a {
+  color: black;
+  text-decoration: none;
+}
+
+.person a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  color: white;
+  background-color: black;
+  padding: 16px;
+}
+
+footer p {
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 24px;
+  }
+}
